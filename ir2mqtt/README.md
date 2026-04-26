@@ -8,7 +8,7 @@ Web UI for IR Bridges with Learning and MQTT Auto-Discovery for Home Assistant.
 
 IR2MQTT bridges physical infrared devices with your smart home. Instead of writing YAML, you use a modern Web UI to:
 
-- **Manage IR bridges** connected via serial (e.g. ESPHome-based devices)
+- **Manage IR bridges** that connect via MQTT (e.g. ESPHome-based devices)
 - **Learn IR codes** directly from your remotes
 - **Browse IR databases** (Flipper-IRDB, Probono IRDB) to find codes without a remote
 - **Create automations** that trigger IR commands based on MQTT messages
@@ -25,11 +25,13 @@ IR2MQTT bridges physical infrared devices with your smart home. Instead of writi
 
 ## Hardware
 
-Requires an IR bridge connected via serial (UART). Tested with ESPHome-based bridges — see the [ir2mqtt_bridge](https://github.com/steelcuts/ir2mqtt_bridge) repository for firmware.
+Requires one or more IR bridges running the IR2MQTT ESPHome firmware. The bridges connect to your MQTT broker and are **auto-discovered** by IR2MQTT — no serial/USB connection to the host is needed.
+
+See the [ir2mqtt_bridge](https://github.com/steelcuts/ir2mqtt_bridge) repository for firmware and wiring instructions (IR receiver + IR LED on an ESP32).
 
 ## Documentation
 
-Full documentation is available at the [ir2mqtt repository](https://github.com/steelcuts/ir2mqtt).
+Full documentation is available at [steelcuts.github.io/ir2mqtt](https://steelcuts.github.io/ir2mqtt/).
 
 ## Support
 
