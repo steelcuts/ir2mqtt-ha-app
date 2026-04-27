@@ -1,5 +1,5 @@
 # Changelog
 
-## 1.0.0-beta.1
+## 1.0.0-beta.2
 
-- Initial release
+- Bump app to 1.0.0-beta.2 (see app changelog for details)

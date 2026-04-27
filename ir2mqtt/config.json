@@ -1,6 +1,6 @@
 {
   "name": "IR2MQTT",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "slug": "ir2mqtt",
   "description": "Web UI for IR Bridges with Learning and MQTT Auto-Discovery",
   "url": "https://github.com/steelcuts/ir2mqtt",
